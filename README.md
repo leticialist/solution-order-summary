@@ -2,7 +2,7 @@
 
 <p align="center">
 <h2 align="center"> Order Summary</h2>
-<p align="center"> Solução do desafio do FrontEnd Mentor <br> <br>
+<p align="center"> Solução do desafio do FrontEnd Mentor nas versões desktop e mobile.<br> <br>
 <img align="center" src="https://i.imgur.com/1fm7ksX.gif" > 
   
 <h3 align="center">Link do desafio</h3> 
