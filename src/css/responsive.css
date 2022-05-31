@@ -1,0 +1,36 @@
+@media (max-width:460px){
+    main {
+        background: url('../img/pattern-background-mobile.svg') var(--pale-blue) center center no-repeat;
+        background-size: contain;
+        background-position: top;
+        padding: 30px;
+    }
+
+    .container-order {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+    }
+
+    .container-order .info .about {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    
+    .container-order .plans {
+        margin: 20px  30px;
+    }
+
+    .container-order .payments .payment {
+        margin: 5px 30px 30px;
+        padding: 18px;
+        font-weight: 800;
+        font-size: 18px;
+    }
+
+    .container-order .cancel a{
+        font-size: 18px;
+        font-weight: 900;
+    }
+}

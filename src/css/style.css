@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;800;900&display=swap');
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+    background: url('../img/pattern-background-desktop.svg') var(--pale-blue) center center no-repeat;
+    height: 100vh;
+    background-size: contain;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-order {
+    background-color: white;
+    max-width: 450px;
+    border-radius: 20px;
+    box-shadow: rgba(8, 5, 165, 0.171) 0px 20px 40px -7px;
+}
+
+
+
+/* INFO */
+.container-order .illustration {
+    border-radius: 20px 20px 0 0 ;
+}
+
+.container-order .info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.container-order .info .title{
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: 40px;
+    color: var(--dark-blue);
+}
+
+.container-order .info .about {
+    margin-top: 18px;
+    line-height: 25px;
+    color: var(--medium-blue);
+}
+
+
+
+/* PLAN PRICE */
+.container-order .plans {
+    background-color: var(--light-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px  50px;
+    padding: 26px 22px;
+    border-radius: 10px;
+}
+
+.container-order .plans .plan {
+    display: flex;
+}
+
+.container-order .plans .plan img {
+    margin-right: 20px;
+}
+
+.container-order .plans .plan .annual-plan {
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 5px;
+    color: var(--dark-blue);
+}
+
+.container-order .plans .plan .price{
+    color: var(--medium-blue);
+}
+
+.container-order .plans .btn-change {
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 900;
+    transition: 0.3s;
+}
+
+.container-order .plans .btn-change:hover{
+    text-decoration: none;
+    filter: opacity(70%);
+}
+
+
+
+/* PAYMENT */
+.container-order .payments .payment{
+    background-color: var(--bright-blue);
+    color: white;
+    margin: 32px  50px;
+    padding: 14px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(8, 5, 165, 0.164) 0px 30px 20px -7px;
+    transition: 0.3s;
+}
+
+.container-order .payments .payment:hover{
+    filter: opacity(70%);
+}
+
+
+
+/* CANCEL ORDER */
+.container-order .cancel {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.container-order .cancel a{
+    font-weight: 800;
+    font-size: 15px;
+    color:var(--medium-blue);
+    transition: 0.3s;
+}
+
+.container-order .cancel a:hover {
+    color: var(--dark-blue);
+}
